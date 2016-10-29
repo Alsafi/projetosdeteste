@@ -1,0 +1,38 @@
+body {
+    background-color: blue;
+    background-repeat: repeat;
+    background-size: cover;
+    color: green;
+}
+
+p {
+    text-align: center;
+    font-size: 150pt;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 900;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: yellow;
+    text-shadow: 15px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+#btn {
+    color: green;
+    font-size: 40pt;
+    font-family: monospace;
+    background-image: url("imgres.jpg");
+    background-size: 2000%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    text-shadow: 15px 10px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+}
+
+div {
+    transform: rotateX(150deg);
+    transform: rotateY(130deg);
+}
