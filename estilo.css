@@ -5,8 +5,7 @@ body {
     color: green;
 }
 
-p {
-    text-align: center;
+#ola {
     font-size: 150pt;
     font-family: sans-serif;
     font-style: oblique;
@@ -16,6 +15,11 @@ p {
     background-color: yellow;
     text-shadow: 15px 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 25px;
+}
+
+#msg {
+    color: white;
+    text-decoration: underline;
 }
 
 #btn {
@@ -36,4 +40,8 @@ p {
 div {
     transform: rotateX(150deg);
     transform: rotateY(130deg);
+}
+
+.centralizar {
+    text-align: center;
 }
